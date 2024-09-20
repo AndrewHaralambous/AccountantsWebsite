@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#services {
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
